@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".SplashActivity">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:layout_centerInParent="true"
+                      android:layout_marginRight="20dp"
+                      android:layout_marginLeft="20dp"
+                      android:id="@+id/lin"
+                      android:gravity="center"
+                      android:orientation="vertical">
+            <VideoView android:layout_width="300dp" android:layout_height="250dp"
+                       android:id="@+id/lordArul"/>
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+                         android:layout_marginTop="20dp"
+                         android:visibility="visible"
+                         android:id="@+id/progres"
+                         />
+            <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="Skip >>"
+                    android:layout_marginTop="17dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/teal_700"
+                    android:id="@+id/skip"
+                    android:visibility="gone"
+            />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginTop="10dp"
+                  android:textSize="15sp"
+                  android:id="@+id/author"
+                  android:typeface="serif"
+                  android:layout_below="@+id/lin"
+                  android:layout_alignParentBottom="true"
+                  android:gravity="bottom"
+                  android:layout_centerHorizontal="true"
+                  android:text="Develop By {Ricky V | Hikki}"
+                  android:textColor="@color/white"
+        />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/TextFont</item>
+        <item name="bg">@color/white</item>
+        <item name="bgKotak">@color/cardview_light_background</item>
+        <item name="textKotak">#454545</item>
+        <item name="textBiasa">@color/black</item>
+        <item name="statusText">@color/cardview_dark_background</item>
+        <item name="imgBg">#c8c8c8</item>
+        <item name="strokeCard">@color/cardview_shadow_end_color</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="bg" format="color"/>
+        <attr name="bgKotak" format="color"/>
+        <attr name="textKotak" format="color"/>
+        <attr name="statusText" format="color"/>
+        <attr name="textBiasa" format="color"/>
+        <attr name="imgBg" format="color"/>
+        <attr name="strokeCard" format="color"/>
+    </declare-styleable>
+</resources>
