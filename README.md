@@ -1,5 +1,5 @@
 # Jokes-bapak-bapak-mobile
-klik kotak dibawah untuk mendownload
+Klik untuk download aplikasi<br/>
 [![Ngakak Abiezz.apk](https://img.shields.io/badge/Ngakak%20Abiezz-APK-red.svg?style=for-the-badge&logo=android)](https://github.com/rickyricko302/Jokes-bapak-bapak-mobile/releases/download/apk/ngakak.abiezz.apk)
 ---
 
