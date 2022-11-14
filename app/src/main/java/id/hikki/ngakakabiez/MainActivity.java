@@ -220,7 +220,7 @@ public class MainActivity extends AppCompatActivity {
             imageView.setVisibility(View.GONE);
             loading.setVisibility(View.VISIBLE);
             Glide.with(getApplicationContext()).asGif().load(R.raw.loading).into(loading);
-            url = "https://jokesbapak2.herokuapp.com/?"+String.valueOf(new Random().nextInt(99999));
+            url = "https://jokesbapak2.reinaldyrafli.com/api/?"+String.valueOf(new Random().nextInt(99999));
             Glide.with(this).load(url).dontTransform().addListener(rl).into(imageView);
 
         });
